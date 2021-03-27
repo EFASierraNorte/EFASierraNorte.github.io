@@ -433,7 +433,11 @@
 		// Events.
 			$this
 				.on('submit', function() {
-
+					e.preventDefault();
+					if ($(this).find('input[name="datenschutz"]')[0].checked === false) {
+						alert("Please accept the terms and conditions!");
+					return false;
+					}
 					$this.find('input[type=text],input[type=password],textarea')
 						.each(function(event) {
 

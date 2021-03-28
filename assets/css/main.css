@@ -3449,11 +3449,11 @@ input, select, textarea {
 		margin: 0 0 1em 0;
 		overflow: hidden;
 		position: relative;
-		width: 4em;
+		
 	}
 
 		#intro .logo:before {
-			background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100px' height='100px' viewBox='0 0 100 100' preserveAspectRatio='none' zoomAndPan='disable'%3E%3Cpolygon points='0,0 100,0 100,25 50,0 0,25' style='fill:%23f4f4f4' /%3E%3Cpolygon points='0,100 100,100 100,75 50,100 0,75' style='fill:%23f4f4f4' /%3E%3C/svg%3E");
+			background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100' preserveAspectRatio='none' zoomAndPan='disable'%3E%3Cpolygon points='0,0 100,0 100,25 50,0 0,25' style='fill:%23f4f4f4' /%3E%3Cpolygon points='0,100 100,100 100,75 50,100 0,75' style='fill:%23f4f4f4' /%3E%3C/svg%3E");
 			background-position: top left;
 			background-repeat: no-repeat;
 			background-size: 100% 100%;
@@ -3468,8 +3468,7 @@ input, select, textarea {
 
 		#intro .logo img {
 			display: block;
-			margin-left: -0.25em;
-			width: 4.5em;
+			width: 10em;
 		}
 
 	#intro header h2 {
@@ -3634,7 +3633,7 @@ input, select, textarea {
 			visibility: visible;
 		}
 
-		@media screen and (max-width: 736px) {
+		@media screen {
 
 			#menu > * {
 				padding: 1.5em;
@@ -3719,12 +3718,40 @@ td > span:hover{
 		 font-weight: bold; 
 	}
 	
-td > span.active{
+td > span.ecologia{
 		border: 1px solid #98cd60;
 		border-radius: 30px;
+		padding-top:0px;
 	}
-td > span:active{
+td > span:ecologia{
 		border: 2px solid #98cd60;
+		border-radius: 30px;
+	}
+	td > span.autosuficiencia{
+		border: 1px solid #472ee4;
+		border-radius: 30px;
+		padding-top:0px;
+	}
+td > span:autosuficiencia{
+		border: 2px solid #472ee4;
+		border-radius: 30px;
+	}
+	td > span.bienestar{
+		border: 1px solid #ddb811;
+		border-radius: 30px;
+		padding-top:0px;
+	}
+td > span:bienestar{
+		border: 2px solid #ddb811;
+		border-radius: 30px;
+	}
+	td > span.artes{
+		border: 1px solid #883ccb;
+		border-radius: 30px;
+		padding-top:0px;
+	}
+td > span:artes{
+		border: 2px solid #883ccb;
 		border-radius: 30px;
 	}
 

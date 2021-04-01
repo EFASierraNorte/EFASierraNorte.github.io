@@ -3693,10 +3693,10 @@ table{
 	color: #9d9d9d;
 }
 
-th{
+th > span{
 	font-weight: normal;
 	font-size: 14px;
-	color: #5b5b5b;
+	color: #939393;
 }
 
 td{
@@ -3722,37 +3722,45 @@ td > span.ecologia{
 		border: 1px solid #98cd60;
 		border-radius: 30px;
 		padding-top:0px;
+		background:#98cd60;
 	}
 td > span:ecologia{
 		border: 2px solid #98cd60;
 		border-radius: 30px;
+		background:#98cd60;
 	}
 	td > span.autosuficiencia{
 		border: 1px solid #472ee4;
 		border-radius: 30px;
 		padding-top:0px;
+		background:#472ee4;
 	}
 td > span:autosuficiencia{
 		border: 2px solid #472ee4;
 		border-radius: 30px;
+		background:#472ee4;
 	}
 	td > span.bienestar{
 		border: 1px solid #ddb811;
 		border-radius: 30px;
 		padding-top:0px;
+		background:#ddb811;
 	}
 td > span:bienestar{
 		border: 2px solid #ddb811;
 		border-radius: 30px;
+		background:#ddb811;
 	}
 	td > span.artes{
 		border: 1px solid #883ccb;
 		border-radius: 30px;
 		padding-top:0px;
+		background:#883ccb;
 	}
 td > span:artes{
 		border: 2px solid #883ccb;
 		border-radius: 30px;
+		background:#883ccb;
 	}
 
 
